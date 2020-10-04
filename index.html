@@ -1,33 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Christian J.">
-</header>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
 <body>
-    <div>
-        <h1>Christian<br>Jimenez</h1>
+    <div class="bordered"> <!-- Use dark borders for all Divs-->
+        <div class="headerLeft">christianjimenezfael@gmail.com</div>
+        <div class="headerRight">cell: (706) 756-9384</div>
+
+        <h1 class="name">Christian<br>Jimenez</h1>
+        <p>----stylized position name----</p>
+        <p>insert my story, who am I? What do I do? What makes me special? why
+           should ppl care? Honesty, authenticity, and humanity are better than
+           buzzwords. 
+        </p>
     </div>
-    <div>
-        <h1>Skills</h1>
+    <div class="bordered">
+        <h1 class="section">Skills</h1>
+        <hr/>
+        <table> <!-- Table design so that it is dotted-->
+            <tr>
+                <td>Python</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>PHP</td>    
+            </tr>
+            <tr>
+                <td>C/C++</td>
+                <td>SQL</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+            </tr>
+        </table>
     </div>
-    <div>
-        <h1>Education</h1>
+    <div class="bordered">
+        <h1 class="section side">Education</h1> <!-- Vertical text Left ot right-->
+            <ul><li><h2>Georgia College & State Univeristy</h2>
+                Bachelor of Science
+                Computer Science
+                <p class="date">2020</p>
+                </li>
+            </ul>
     </div>
-    <div>
-        <h1>Work Exprience</h1>
+    <div class="bordered">
+        <h1 class="title">Work Exprience</h1>
+        <hr/>
+        <div>
+            <p class="date">August 2017-June 2020</p>
+            <h2>Host</h2>
+            Kai Thai: Thai Restaurant & Sushi Bar<br>
+            Milledgeville, GA <!-- italicized & with a location marker-->
+            <p><ul>
+                    <li>Trained 7 new hostesses proper restaurant protocol</li>
+                    <li>Displayed strong verbal communication and positive interpersonal
+                        skills in a fast-paced environment towards guests, served 100+
+                        customers daily</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <p class="date">June 2019-May 2020</p>
+            <h2>Database Manager</h2>
+            Georgia College Office of Community Engagement<br>
+            Milledgeville, GA
+            <p>
+                <ul>
+                    <li>Validated data integrity of Georgia College Student's volunteer hours</li>
+                    <li>Maintained relations with surrounding organizations to promote an
+                        environment for community engagement on campus</li>
+                    <li>Conducted monthly reports on volunteer hours through
+                        combined usage of SQL queries and Excel for VLOOKUPs & building charts</li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <p class="date">August 2016-March 2018</p>
+            <h2>Facilitator</h2>
+            Men Against Rape and Sexual Assualt, Georgia College<br>
+            Milledgeville, GA
+            <p>
+                <ul>
+                    <li>Planned and organized annual six-hour long programs
+                        during freshman orientations, designed to invite active bystander
+                        intervention on campus</li>
+                    <li>Hosted regular educational programs throughout the semester with
+                        an audience ranging from 10-20 Greek life members on the topics of consent,
+                        healthy masculine behavior, the role of alcohol, and aiding victims</li>
+                </ul>
+            </p>
+        </div>
     </div>
-    <div>
-        <h1>Awards & Recognitions</h1>
+    <div class="bordered">
+        <h1 class="section">Awards & Recognitions</h1>
     </div>
-    <div>
-        <h1>Hobbies & Interests</h1>
+    <div class ="bordered">
+        <h1 class="section">Hobbies & Interests</h1>
+        <table>
+            <tr>
+                <td>Muay Thai</td>
+                <td>Gaming</td>
+                <td>Scuba Diving</td>
+            </tr>
+                <td>Running</td>
+                <td>Mechanical work</td>
+                <td>Hiking</td>
+        </table>
     </div>
-    <div>
-        <h1>Work References</h1>
+    <div class="bordered">
+        <h1 class="section">Work References</h1>
     </div>
 
-<p> host acquired </p>
 </body>
 </html>

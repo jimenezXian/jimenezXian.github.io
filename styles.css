@@ -1,0 +1,34 @@
+div.bordered{
+    border-width:2pt;
+    border-color: black;
+    border-style: solid;
+}
+div.headerLeft{
+    text-align: left;
+    font-style: italic;
+}
+div.headerRight{
+    text-align: right;
+    font-style: italic;
+}
+h1.name,p.date{
+    color:goldenrod;
+    text-align: center;
+}
+body{
+    margin: 36pt;
+}
+
+p.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1.section,h2{
+    font-family: Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+h1.side{
+    position: absolute;
+    bottom:0;
+    left:0;
+    transform-origin:0.0;
+    transform: rotate(-90deg);   
+}
